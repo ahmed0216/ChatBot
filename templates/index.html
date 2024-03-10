@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+</head>
+<body>
+    <div id="chatbox"></div>
+    <input type="text" id="userInput" placeholder="Type your message here...">
+    <button onclick="sendMsg()">Send</button>
+    
+    <script>
+        function sendMsg() {
+            var userMessage = document.getElementById("userInput").value;
+            var chatbox = document.getElementById("chatbox");
+            
+            // Display user message
+            var userMsgDiv = document.createElement("div");
+            userMsgDiv.innerHTML = "<strong>You:</strong> " + userMessage;
+            chatbox.appendChild(userMsgDiv);
+            
+            // Send message to server
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "/get?msg=" + userMessage, true);
+            xhr.onreadystatechange = function() {
+                if (xhr.readyState == 4 && xhr.status == 200) {
+                    var botResponse = xhr.responseText;
+                    var botMsgDiv = document.createElement("div");
+                    botMsgDiv.innerHTML = "<strong>Bot:</strong> " + botResponse;
+                    chatbox.appendChild(botMsgDiv);
+                }
+            };
+            xhr.send();
+            
+            // Clear input field
+            document.getElementById("userInput").value = "";
+        }
+    </script>
+</body>
+</html>

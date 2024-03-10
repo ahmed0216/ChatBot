@@ -1,0 +1,2563 @@
+{
+   "intents":[
+      {
+         "tag":"greetings",
+         "patterns":[
+            "Hi",
+            "Hello",
+            "Hey there",
+            "Good morning",
+            "Good afternoon",
+            "Good evening",
+            "Hi there!",
+            "Hey!",
+            "Greetings!",
+            "Hi, how can I assist you today?",
+            "What's up?",
+            "Howdy"
+         ],
+         "responses":[
+            "Hello!",
+            "Hi there!",
+            "Hey!",
+            "Greetings!",
+            "Hi, how can I assist you today?",
+            "Nice to see you!",
+            "Howdy!"
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"thanks",
+         "patterns":[
+            "Thank you",
+            "Thanks",
+            "Appreciate it",
+            "Thanks a lot",
+            "Thank you very much",
+            "Much obliged",
+            "Cheers",
+            "Thanks for your help",
+            "I'm grateful",
+            "I appreciate your assistance",
+            "Big thank you",
+            "Thank you kindly",
+            "Many thanks",
+            "Much appreciated"
+         ],
+         "responses":[
+            "You're welcome!",
+            "No problem!",
+            "Glad to help!",
+            "Anytime!",
+            "You bet!",
+            "Happy to assist!",
+            "No worries!",
+            "It was my pleasure!",
+            "Don't mention it!",
+            "Anytime you need help!",
+            "You're most welcome!",
+            "It's my pleasure!",
+            "I'm always here to help!",
+            "You can count on me!"
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"no_answer",
+         "patterns":[
+            "Sorry, I didn't understand",
+            "Could you repeat that?",
+            "Can you say that again?",
+            "I'm not sure I understand",
+            "I don't understand",
+            "What do you mean?",
+            "I'm sorry, I don't understand",
+            "I didn't get that. Can you repeat?",
+            "I didn't catch that. Can you repeat?",
+            "Can you repeat?",
+            "Can you rephrase that?",
+            "Could you say that again, please?",
+            "Sorry, what was that?",
+            "I'm sorry, what was that?",
+            "I'm not sure I understand what you're saying.",
+            "Say that one more time, please",
+            "I'm having trouble understanding",
+            "Could you speak more slowly?",
+            "I'm not following, could you explain differently?",
+            "I'm sorry, I can't comprehend that",
+            "I'm not able to understand that",
+            "Can you explain that differently?",
+            "I'm unable to grasp that concept"
+         ],
+         "responses":[
+            "Apologies, I'm still learning",
+            "I'm sorry, I'm not sure what you mean",
+            "I'm still learning, could you please rephrase?",
+            "Sorry, I didn't catch that. Can you try again?",
+            "Could you provide more context, please?",
+            "I'm not sure I understand. Can you clarify?",
+            "I'm learning new things every day. Can you repeat that in a different way?",
+            "I'm sorry, I'm not programmed to understand that yet.",
+            "I'm still learning the nuances of human language.",
+            "Let me try to understand that better.",
+            "I'm struggling to comprehend, can you simplify?",
+            "I'm not grasping that concept, could you explain further?",
+            "I didn't quite get that, could you try again?",
+            "I'm sorry, I can't process that information right now.",
+            "I'm not equipped to understand that at the moment.",
+            "I'm unable to make sense of that, could you elaborate?",
+            "Could you help me understand that better?",
+            "I'm sorry, I'm not able to interpret that.",
+            "I'm still learning, thanks for your patience."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"name",
+         "patterns":[
+            "What's your name?",
+            "What should I call you?",
+            "Do you have a name?",
+            "Who are you?",
+            "Your name?",
+            "May I know your name?",
+            "What do people call you?",
+            "Who am I chatting with?"
+         ],
+         "responses":[
+            "You can call me Chatbot.",
+            "I'm just a chatbot.",
+            "I'm Chatbot, here to assist you.",
+            "I'm an AI chatbot designed to help you.",
+            "I'm your virtual assistant, Chatbot.",
+            "People call me Chatbot.",
+            "I go by the name Chatbot.",
+            "You're chatting with Chatbot.",
+            "I'm your friendly neighborhood Chatbot.",
+            "The name's Chatbot, at your service."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"age",
+         "patterns":[
+            "How old are you?",
+            "What's your age?",
+            "Age?",
+            "When were you created?",
+            "How many years have you been around?"
+         ],
+         "responses":[
+            "I don't have an age. I'm just a computer program.",
+            "I'm ageless. I exist in the digital realm.",
+            "I don't age. I'm here to assist you regardless.",
+            "I'm perpetually young, as I exist in the digital world.",
+            "I don't age like humans do. I'm always here to help.",
+            "I was created in the digital age.",
+            "I don't keep track of time like humans do.",
+            "I'm a creature of the digital era.",
+            "Age is just a number for me.",
+            "I'm timeless, here to assist you."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"feelings",
+         "patterns":[
+            "How are you feeling?",
+            "Are you happy?",
+            "Are you sad?",
+            "How do you feel today?",
+            "Feelings?",
+            "Do you have emotions?"
+         ],
+         "responses":[
+            "I don't have feelings, but I'm here to assist you.",
+            "Feelings don't apply to me, but I'm ready to help you.",
+            "As an AI, I don't have emotions, but I'm available to assist you.",
+            "I don't experience feelings like humans do, but I'm here to support you.",
+            "Feelings aren't something I possess, but I'm ready to assist you.",
+            "Emotions are beyond my capabilities, but I'm here to help you.",
+            "I'm devoid of emotions, but I'm ready to assist you.",
+            "Feelings are a human trait, but I'm here to provide support.",
+            "I lack emotions, but I'm here to offer assistance.",
+            "I operate on logic, not emotions, but I'm here to assist you."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"bye",
+         "patterns":[
+            "Goodbye",
+            "Bye",
+            "See you later",
+            "Farewell",
+            "Take care",
+            "Have a good one",
+            "Until next time",
+            "Catch you later",
+            "Bye for now",
+            "So long",
+            "Adios",
+            "Cheerio",
+            "Peace out",
+            "Gotta go",
+            "I'm out",
+            "Toodles",
+            "Sayonara",
+            "Later, alligator",
+            "In a while, crocodile"
+         ],
+         "responses":[
+            "Goodbye! Take care.",
+            "Bye! Have a great day.",
+            "See you later! All the best.",
+            "Farewell! Until next time.",
+            "Take care! Goodbye for now.",
+            "Until we meet again! Goodbye.",
+            "Catch you later! Bye.",
+            "Bye for now! Take care.",
+            "So long! Farewell.",
+            "Adios! Have a good one.",
+            "Cheerio! Bye bye.",
+            "Peace out! See you soon.",
+            "Gotta go! Bye.",
+            "I'm out! Take care.",
+            "Toodles! See you later.",
+            "Sayonara! Until next time.",
+            "Later, alligator! In a while, crocodile.",
+            "Until next time! Goodbye.",
+            "See you soon! Take care."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"algorithms",
+         "patterns":[
+            "algorithms",
+            "algorithmic problems",
+            "algorithm complexity",
+            "algorithm design",
+            "data structures and algorithms"
+         ],
+         "responses":[
+            "Algorithms are the heart of computer science, dealing with problem-solving methods and efficiency.",
+            "Understanding algorithms is crucial for developing efficient solutions to various computational problems.",
+            "Learn about algorithm design paradigms like divide and conquer, dynamic programming, and greedy algorithms.",
+            "Study algorithm complexity to analyze the efficiency of algorithms in terms of time and space.",
+            "Practice solving algorithmic problems to enhance your problem-solving skills."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"data_structures",
+         "patterns":[
+            "data structures",
+            "data organization",
+            "data representation",
+            "data storage",
+            "types of data structures"
+         ],
+         "responses":[
+            "Data structures are fundamental components used to store, organize, and manage data effectively.",
+            "Explore various data structures such as arrays, linked lists, stacks, queues, trees, and graphs.",
+            "Understand the strengths and weaknesses of different data structures to choose the most suitable one for your applications.",
+            "Learn about advanced data structures like hash tables, heaps, and tries for efficient data manipulation.",
+            "Data representation techniques like arrays, records, and pointers play a vital role in organizing data in memory."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"programming_languages",
+         "patterns":[
+            "programming",
+            "programming languages",
+            "popular languages",
+            "coding languages",
+            "best programming languages",
+            "languages for coding"
+         ],
+         "responses":[
+            "Explore a variety of programming languages such as Python, Java, JavaScript, C++, C#, Ruby, Swift, and PHP.",
+            "Different programming languages have their strengths and weaknesses, catering to various application domains and preferences.",
+            "Consider factors like syntax, performance, community support, and ecosystem when choosing a programming language.",
+            "Each programming language offers unique features and paradigms, influencing its suitability for specific tasks and projects.",
+            "Learning multiple programming languages can broaden your perspective and enhance your problem-solving skills."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"computer_architecture",
+         "patterns":[
+            "computer architecture",
+            "hardware design",
+            "processor architecture",
+            "computer components",
+            "instruction set architecture"
+         ],
+         "responses":[
+            "Computer architecture involves the design and organization of computer systems and their components.",
+            "Explore topics like CPU architecture, memory hierarchy, instruction pipelines, and system buses.",
+            "Understand the role of hardware components such as processors, memory units, input/output devices, and storage devices.",
+            "Study instruction set architecture (ISA) and microarchitecture to comprehend how processors execute instructions.",
+            "Advancements in computer architecture drive innovations in computing performance, power efficiency, and system scalability."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"operating_systems",
+         "patterns":[
+            "operating systems",
+            "OS",
+            "kernel",
+            "system software",
+            "process management"
+         ],
+         "responses":[
+            "Operating systems are software systems that manage computer hardware and provide services to applications.",
+            "Explore different types of operating systems such as Windows, macOS, Linux, Unix, and Android.",
+            "Learn about kernel architecture, process management, memory management, file systems, and device drivers.",
+            "Operating systems mediate between user applications and hardware, providing an abstraction layer for resource management.",
+            "Study concepts like multitasking, multiprocessing, scheduling algorithms, and inter-process communication in operating systems."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"software_engineering",
+         "patterns":[
+            "software engineering",
+            "software development",
+            "SDLC",
+            "software design",
+            "software testing"
+         ],
+         "responses":[
+            "Software engineering is a systematic approach to developing, testing, and maintaining software systems.",
+            "Explore software development methodologies like Agile, Waterfall, Scrum, and DevOps.",
+            "Understand the software development life cycle (SDLC) stages, including requirements analysis, design, implementation, testing, deployment, and maintenance.",
+            "Learn about software design principles, patterns, and architectural styles for building scalable and maintainable software.",
+            "Software testing techniques such as unit testing, integration testing, system testing, and acceptance testing ensure the quality and reliability of software."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"artificial_intelligence",
+         "patterns":[
+            "artificial intelligence",
+            "AI",
+            "machine learning",
+            "deep learning",
+            "neural networks"
+         ],
+         "responses":[
+            "Artificial intelligence (AI) aims to develop computer systems capable of performing tasks that typically require human intelligence.",
+            "Explore subfields of AI such as machine learning, natural language processing, computer vision, and robotics.",
+            "Machine learning algorithms enable computers to learn from data and make predictions or decisions without explicit programming.",
+            "Deep learning, a subset of machine learning, utilizes artificial neural networks with multiple layers to model complex patterns in data.",
+            "Neural networks, inspired by the human brain's structure and function, form the basis of many AI applications and algorithms."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"computational_theory",
+         "patterns":[
+            "computational theory",
+            "automata theory",
+            "computability",
+            "complexity theory",
+            "formal languages"
+         ],
+         "responses":[
+            "Computational theory explores the theoretical foundations of computing and algorithms.",
+            "Automata theory studies abstract machines and computational models to understand computation and formal languages.",
+            "Computability theory investigates the limitations of algorithms and the types of problems that can be solved algorithmically.",
+            "Complexity theory analyzes the computational complexity of problems, including time complexity, space complexity, and NP-completeness.",
+            "Formal languages and grammars provide mathematical frameworks for defining syntax and semantics in programming languages and systems."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"computer_applications",
+         "patterns":[
+            "computer applications",
+            "application software",
+            "productivity software",
+            "business applications",
+            "personal applications"
+         ],
+         "responses":[
+            "Computer applications are software programs designed to perform specific tasks or functions for users.",
+            "Explore various categories of computer applications such as productivity software, business applications, entertainment software, and educational software.",
+            "Examples of computer applications include word processors, spreadsheets, presentation software, email clients, web browsers, and media players.",
+            "Customize computer applications according to user requirements and preferences through configuration options and settings.",
+            "Computer applications enhance productivity, streamline workflows, facilitate communication, and provide entertainment and leisure activities."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"database_systems",
+         "patterns":[
+            "database systems",
+            "database management",
+            "relational databases",
+            "NoSQL databases",
+            "database design"
+         ],
+         "responses":[
+            "Database systems are software systems for managing and organizing large volumes of structured and unstructured data.",
+            "Explore different types of databases such as relational databases, NoSQL databases, object-oriented databases, and graph databases.",
+            "Learn about database management systems (DBMS) architectures, query languages, data modeling, and normalization techniques.",
+            "Relational databases organize data into tables with rows and columns, enforcing data integrity and relationships through primary keys and foreign keys.",
+            "Database design involves creating database schemas, defining entities and attributes, and establishing relationships between entities."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"networking",
+         "patterns":[
+            "networking",
+            "computer networks",
+            "network protocols",
+            "TCP/IP",
+            "network security"
+         ],
+         "responses":[
+            "Networking involves the design, implementation, and management of computer networks for data communication and resource sharing.",
+            "Explore different types of computer networks such as LANs, WANs, MANs, WLANs, and PANs.",
+            "Learn about network protocols like TCP/IP, HTTP, FTP, DNS, DHCP, and SNMP used for data transmission and communication.",
+            "Network security measures protect computer networks and data from unauthorized access, data breaches, and cyberattacks.",
+            "Study topics like encryption, firewalls, intrusion detection systems, virtual private networks (VPNs), and security policies in network security."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"web_development",
+         "patterns":[
+            "web development",
+            "frontend development",
+            "backend development",
+            "full-stack development",
+            "web technologies"
+         ],
+         "responses":[
+            "Web development involves designing, building, and maintaining websites and web applications.",
+            "Explore front-end development technologies like HTML, CSS, JavaScript, and frameworks like React, Angular, and Vue.js.",
+            "Back-end development focuses on server-side logic, databases, and APIs using technologies like Node.js, Django, Flask, and Express.js.",
+            "Full-stack development combines front-end and back-end development skills to create end-to-end web solutions and applications.",
+            "Web technologies evolve rapidly, with new frameworks, libraries, and tools emerging to enhance web development efficiency and capabilities."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"cybersecurity",
+         "patterns":[
+            "cybersecurity",
+            "information security",
+            "cyber threats",
+            "network security",
+            "data protection"
+         ],
+         "responses":[
+            "Cybersecurity encompasses technologies, processes, and practices designed to protect computer systems, networks, and data from cyber threats.",
+            "Explore various cybersecurity domains such as network security, application security, information security, and cloud security.",
+            "Learn about common cyber threats like malware, viruses, ransomware, phishing attacks, DDoS attacks, and social engineering.",
+            "Implement cybersecurity measures such as firewalls, antivirus software, intrusion detection systems, encryption, and multi-factor authentication.",
+            "Stay updated with cybersecurity trends, vulnerabilities, and best practices to mitigate risks and secure digital assets effectively."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"machine_learning",
+         "patterns":[
+            "machine learning",
+            "ML algorithms",
+            "supervised learning",
+            "unsupervised learning",
+            "reinforcement learning"
+         ],
+         "responses":[
+            "Machine learning is a subset of artificial intelligence focused on developing algorithms that enable computers to learn from data and make predictions or decisions.",
+            "Explore various types of machine learning algorithms such as supervised learning, unsupervised learning, semi-supervised learning, and reinforcement learning.",
+            "Supervised learning algorithms learn from labeled data to make predictions or classifications based on input-output pairs.",
+            "Unsupervised learning algorithms discover patterns and relationships in unlabeled data without explicit guidance.",
+            "Reinforcement learning algorithms learn to make decisions by interacting with an environment and receiving feedback in the form of rewards or penalties."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"natural_language_processing",
+         "patterns":[
+            "natural language processing",
+            "NLP",
+            "text processing",
+            "language understanding",
+            "speech recognition"
+         ],
+         "responses":[
+            "Natural language processing (NLP) focuses on enabling computers to understand, interpret, and generate human language.",
+            "Explore NLP techniques such as tokenization, stemming, lemmatization, part-of-speech tagging, named entity recognition, and sentiment analysis.",
+            "Text processing tasks include text classification, document summarization, information retrieval, question answering, and machine translation.",
+            "Speech recognition systems convert spoken language into text, enabling voice commands, transcription, dictation, and voice-controlled applications.",
+            "NLP applications range from virtual assistants and chatbots to language translation, sentiment analysis, and content recommendation systems."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"computer_graphics",
+         "patterns":[
+            "computer graphics",
+            "2D graphics",
+            "3D graphics",
+            "computer animation",
+            "rendering techniques"
+         ],
+         "responses":[
+            "Computer graphics involves creating, manipulating, and rendering visual images and animations using computers.",
+            "Explore 2D graphics techniques such as raster graphics, vector graphics, image processing, and graphical user interfaces (GUIs).",
+            "3D graphics focus on rendering three-dimensional objects and scenes using techniques like wireframe rendering, ray tracing, and polygonal modeling.",
+            "Computer animation combines graphics, motion, and storytelling to create animated sequences, characters, and special effects.",
+            "Rendering techniques like shading, lighting, texturing, and rendering pipelines contribute to the realism and visual quality of computer-generated imagery."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"computer_vision",
+         "patterns":[
+            "computer vision",
+            "image processing",
+            "object detection",
+            "image recognition",
+            "visual perception"
+         ],
+         "responses":[
+            "Computer vision enables computers to interpret and analyze visual information from the real world.",
+            "Explore image processing techniques such as image enhancement, filtering, segmentation, and feature extraction.",
+            "Object detection algorithms identify and locate objects within images or video frames, enabling applications like surveillance, robotics, and autonomous vehicles.",
+            "Image recognition systems classify objects, scenes, or patterns in images using machine learning models trained on labeled datasets.",
+            "Visual perception studies how humans and machines interpret and understand visual information, including depth perception, motion detection, and object recognition."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"human_computer_interaction",
+         "patterns":[
+            "human-computer interaction",
+            "HCI",
+            "user interface design",
+            "user experience",
+            "interaction design"
+         ],
+         "responses":[
+            "Human-computer interaction (HCI) focuses on designing interactive systems and interfaces that facilitate effective communication between humans and computers.",
+            "Explore user interface (UI) design principles, usability testing, accessibility, and user experience (UX) design methodologies.",
+            "Understand user-centered design processes, personas, wireframing, prototyping, and user feedback collection techniques.",
+            "Interaction design defines how users interact with software applications and devices through input methods like touchscreens, keyboards, mice, and gestures.",
+            "HCI research spans areas like cognitive psychology, ergonomics, information visualization, and human factors engineering."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"distributed_systems",
+         "patterns":[
+            "distributed systems",
+            "distributed computing",
+            "scalability",
+            "fault tolerance",
+            "cloud computing"
+         ],
+         "responses":[
+            "Distributed systems consist of multiple interconnected computers that communicate and coordinate their actions to achieve common goals.",
+            "Explore distributed computing models, architectures, algorithms, and protocols for building scalable and fault-tolerant systems.",
+            "Scalability refers to a system's ability to handle increasing workloads and user demands by adding resources or nodes dynamically.",
+            "Fault tolerance mechanisms ensure system reliability and availability by tolerating failures and maintaining continuous operation.",
+            "Cloud computing platforms provide scalable, on-demand access to computing resources like servers, storage, databases, and services over the internet."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"parallel_computing",
+         "patterns":[
+            "parallel computing",
+            "concurrent programming",
+            "parallel algorithms",
+            "multithreading",
+            "distributed processing"
+         ],
+         "responses":[
+            "Parallel computing involves performing multiple computations simultaneously to improve performance and efficiency.",
+            "Explore parallel programming models like shared memory, message passing, task parallelism, and data parallelism.",
+            "Concurrent programming techniques enable multiple threads or processes to execute concurrently, sharing resources and coordinating their activities.",
+            "Multithreading allows programs to perform multiple tasks concurrently within a single process, enhancing responsiveness and throughput.",
+            "Distributed processing distributes computing tasks across multiple nodes or processors in a network to tackle large-scale problems and datasets."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"information_retrieval",
+         "patterns":[
+            "information retrieval",
+            "IR",
+            "search engines",
+            "information extraction",
+            "text indexing"
+         ],
+         "responses":[
+            "Information retrieval (IR) involves retrieving relevant information from large collections of data or documents.",
+            "Explore search engine technologies, retrieval models, indexing techniques, and relevance ranking algorithms.",
+            "Search engines crawl, index, and analyze web pages to provide users with relevant search results based on their queries.",
+            "Information extraction techniques identify and extract structured data from unstructured or semi-structured text sources like documents, emails, and web pages.",
+            "Text indexing organizes and catalogues text-based content to enable fast and efficient search and retrieval operations."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"cloud_computing",
+         "patterns":[
+            "cloud computing",
+            "cloud services",
+            "cloud deployment",
+            "IaaS",
+            "PaaS",
+            "SaaS"
+         ],
+         "responses":[
+            "Cloud computing delivers computing services and resources over the internet, offering scalability, flexibility, and cost-effectiveness.",
+            "Explore cloud deployment models like public cloud, private cloud, hybrid cloud, and multi-cloud environments.",
+            "Infrastructure as a Service (IaaS) provides virtualized computing resources like servers, storage, and networking on a pay-as-you-go basis.",
+            "Platform as a Service (PaaS) offers development and deployment platforms with built-in tools, services, and frameworks for building applications.",
+            "Software as a Service (SaaS) delivers software applications over the internet on a subscription basis, eliminating the need for installation, maintenance, and upgrades."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"quantum_computing",
+         "patterns":[
+            "quantum computing",
+            "quantum algorithms",
+            "quantum entanglement",
+            "qubits",
+            "quantum superposition"
+         ],
+         "responses":[
+            "Quantum computing harnesses the principles of quantum mechanics to perform computations using quantum bits (qubits).",
+            "Explore quantum algorithms and quantum computing models for solving complex problems like factoring large numbers and optimizing search algorithms.",
+            "Quantum entanglement allows qubits to be correlated and interconnected, enabling faster computation and enhanced data processing.",
+            "Qubits can exist in multiple states simultaneously due to quantum superposition, exponentially increasing computing power and parallelism.",
+            "Quantum computing has the potential to revolutionize fields like cryptography, materials science, optimization, and machine learning."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"blockchain_technology",
+         "patterns":[
+            "blockchain technology",
+            "distributed ledger",
+            "cryptocurrency",
+            "smart contracts",
+            "decentralized applications"
+         ],
+         "responses":[
+            "Blockchain technology is a decentralized and distributed ledger system for recording transactions and digital assets securely.",
+            "Explore blockchain concepts like blocks, cryptographic hashing, consensus mechanisms, and peer-to-peer networks.",
+            "Cryptocurrencies like Bitcoin and Ethereum utilize blockchain technology for secure and transparent peer-to-peer transactions.",
+            "Smart contracts are self-executing contracts with the terms of the agreement directly written into code, automatically enforcing contract terms.",
+            "Decentralized applications (DApps) leverage blockchain technology to enable peer-to-peer transactions, digital identity management, and decentralized finance."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"data_science",
+         "patterns":[
+            "data science",
+            "data analysis",
+            "data visualization",
+            "machine learning",
+            "big data"
+         ],
+         "responses":[
+            "Data science combines domain knowledge, programming skills, and statistical techniques to extract insights and knowledge from data.",
+            "Explore the data science lifecycle stages, including data collection, data cleaning, data analysis, model building, and interpretation.",
+            "Data analysis techniques like descriptive statistics, hypothesis testing, regression analysis, and clustering uncover patterns and relationships in data.",
+            "Data visualization tools and techniques help present data visually through charts, graphs, maps, and interactive dashboards for better understanding and decision-making.",
+            "Big data technologies like Hadoop, Spark, and NoSQL databases enable processing and analyzing large volumes of structured and unstructured data efficiently."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"software_testing",
+         "patterns":[
+            "software testing",
+            "testing strategies",
+            "test automation",
+            "quality assurance",
+            "bug tracking"
+         ],
+         "responses":[
+            "Software testing is a critical process of evaluating software applications to ensure they meet quality standards and perform as expected.",
+            "Explore software testing techniques such as unit testing, integration testing, system testing, acceptance testing, and regression testing.",
+            "Testing strategies include black-box testing, white-box testing, gray-box testing, and exploratory testing to validate software functionality and behavior.",
+            "Test automation tools and frameworks streamline the testing process by automating test case generation, execution, and result analysis.",
+            "Quality assurance practices focus on improving software development processes, defect prevention, and continuous improvement through metrics and feedback."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"mobile_development",
+         "patterns":[
+            "mobile development",
+            "mobile app development",
+            "android development",
+            "ios development",
+            "hybrid app development",
+            "mobile programming",
+            "developing mobile apps",
+            "mobile application programming"
+         ],
+         "responses":[
+            "Mobile development involves creating applications for mobile devices such as smartphones and tablets. It includes both Android and iOS platforms, as well as cross-platform development using frameworks like React Native, Flutter, and Xamarin."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"game_development",
+         "patterns":[
+            "game development",
+            "video game development",
+            "game programming",
+            "game design",
+            "developing games",
+            "creating video games",
+            "game engines",
+            "game development tools"
+         ],
+         "responses":[
+            "Game development is the process of creating video games. It involves designing gameplay, developing game mechanics, creating assets, and programming the game logic. Popular game engines include Unity and Unreal Engine."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"robotics",
+         "patterns":[
+            "robotics",
+            "robot programming",
+            "robotic systems",
+            "robotic engineering",
+            "autonomous robots",
+            "robotic programming languages",
+            "robotics development",
+            "building robots",
+            "robotics applications"
+         ],
+         "responses":[
+            "Robotics is the interdisciplinary branch of engineering and science that involves the design, construction, operation, and use of robots. It encompasses areas such as mechanical engineering, electrical engineering, computer science, and artificial intelligence."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"programming_languages",
+         "patterns":[
+            "programming",
+            "programming languages",
+            "popular languages",
+            "languages",
+            "coding languages",
+            "coding",
+            "what are the popular programming languages",
+            "what programming languages should I learn",
+            "what are the top programming languages",
+            "which programming languages are in demand",
+            "which languages should I learn for coding",
+            "best programming languages to learn",
+            "which programming languages are important",
+            "most used programming languages",
+            "programming languages list",
+            "programming languages to know",
+            "programming languages to learn",
+            "Recommended programming languages?",
+            "Which languages are in demand?"
+         ],
+         "responses":[
+            "There are many programming languages you can learn based on your interests and career goals. Some popular ones include Python, Java, JavaScript, C++, C#, Ruby, Swift, and PHP.",
+            "The choice of programming language depends on factors such as your interests, the type of applications you want to develop, and industry trends.",
+            "In-demand programming languages often include Python, JavaScript, Java, C++, and C#. However, the best language for you to learn depends on your career aspirations and the type of projects you want to work on.",
+            "Consider learning Python for its simplicity and versatility, JavaScript for web development, Java for enterprise applications, C++ for system programming, and C# for game development and Microsoft technologies."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"python",
+         "patterns":[
+            "python programming",
+            "python",
+            "python course",
+            "learning python",
+            "python language",
+            "python programming language",
+            "what is python",
+            "what is python language",
+            "tell me about python",
+            "python basics",
+            "python tutorials",
+            "python syntax",
+            "python learning resources",
+            "python documentation",
+            "Python programming basics",
+            "Python documentation"
+         ],
+         "responses":[
+            "Python is a high-level, interpreted programming language known for its simplicity and readability.",
+            "Python's syntax is designed to be intuitive and easy to read, making it a popular choice for beginners and experienced programmers alike.",
+            "Python is widely used in web development, data analysis, artificial intelligence, scientific computing, automation, and more.",
+            "With its extensive standard library and vast ecosystem of third-party packages, Python offers solutions for various domains and applications."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"java",
+         "patterns":[
+            "java programming",
+            "java",
+            "java course",
+            "learning java",
+            "java language",
+            "java programming language",
+            "what is java",
+            "what is java language",
+            "tell me about java",
+            "java basics",
+            "java tutorials",
+            "java syntax",
+            "java learning resources",
+            "java documentation",
+            "Java programming basics",
+            "Java documentation"
+         ],
+         "responses":[
+            "Java is a high-level, object-oriented programming language known for its portability and performance.",
+            "Java's platform independence allows developers to write code once and run it anywhere, making it suitable for building cross-platform applications.",
+            "Java is widely used in enterprise-level applications, web development, mobile applications, and large-scale systems.",
+            "With its strong community support, extensive libraries, and frameworks like Spring and Hibernate, Java is a popular choice for building robust and scalable software solutions."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"javascript",
+         "patterns":[
+            "javascript programming",
+            "javascript",
+            "javascript course",
+            "learning javascript",
+            "javascript language",
+            "javascript programming language",
+            "what is javascript",
+            "what is javascript language",
+            "tell me about javascript",
+            "javascript basics",
+            "javascript tutorials",
+            "javascript syntax",
+            "javascript learning resources",
+            "javascript documentation",
+            "JavaScript programming basics",
+            "JavaScript documentation"
+         ],
+         "responses":[
+            "JavaScript is a versatile, interpreted programming language primarily used for web development.",
+            "JavaScript runs on the client-side in web browsers, enabling developers to create interactive user interfaces and manipulate the DOM.",
+            "With the advent of Node.js, JavaScript can now be used for server-side development, enabling full-stack development using a single language.",
+            "JavaScript frameworks and libraries like React, Angular, and Vue.js facilitate the development of complex web applications and single-page applications (SPAs)."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"c++",
+         "patterns":[
+            "c++ programming",
+            "c++",
+            "c++ course",
+            "learning c++",
+            "c++ language",
+            "c++ programming language",
+            "what is c++",
+            "what is c++ language",
+            "tell me about c++",
+            "c++ basics",
+            "c++ tutorials",
+            "c++ syntax",
+            "c++ learning resources",
+            "c++ documentation",
+            "C++ programming basics",
+            "C++ documentation"
+         ],
+         "responses":[
+            "C++ is a powerful, general-purpose programming language known for its efficiency and flexibility.",
+            "C++ supports object-oriented programming (OOP) features like classes, inheritance, polymorphism, and encapsulation.",
+            "C++ provides low-level memory manipulation features like pointers, making it suitable for developing high-performance applications and system-level programming.",
+            "C++ is widely used in system programming, game development, embedded systems, and performance-critical applications."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"c#",
+         "patterns":[
+            "c# programming",
+            "c#",
+            "c# course",
+            "learning c#",
+            "c# language",
+            "c# programming language",
+            "what is c#",
+            "what is c# language",
+            "tell me about c#",
+            "c# basics",
+            "c# tutorials",
+            "c# syntax",
+            "c# learning resources",
+            "c# documentation",
+            "C# programming basics",
+            "C# documentation"
+         ],
+         "responses":[
+            "C# is a versatile programming language developed by Microsoft as part of its .NET initiative.",
+            "C# is often used for developing Windows applications, web applications, and games using the Unity game engine.",
+            "C# combines the power of C++ with the simplicity of Visual Basic, making it an ideal language for building a wide range of applications.",
+            "C# offers features like automatic memory management, type safety, and scalability, making it suitable for building enterprise-level applications."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"ruby",
+         "patterns":[
+            "ruby programming",
+            "ruby",
+            "ruby course",
+            "learning ruby",
+            "ruby language",
+            "ruby programming language",
+            "what is ruby",
+            "what is ruby language",
+            "tell me about ruby",
+            "ruby basics",
+            "ruby tutorials",
+            "ruby syntax",
+            "ruby learning resources",
+            "ruby documentation",
+            "Ruby programming basics",
+            "Ruby documentation"
+         ],
+         "responses":[
+            "Ruby is a dynamic, object-oriented programming language known for its simplicity and productivity.",
+            "Ruby's elegant syntax and developer-friendly features make it an excellent choice for web development, especially with the Ruby on Rails framework.",
+            "Ruby emphasizes developer happiness and convention over configuration, enabling rapid prototyping and efficient development cycles.",
+            "Learning Ruby opens opportunities in web development, automation, scripting, and software prototyping."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"swift",
+         "patterns":[
+            "swift programming",
+            "swift",
+            "swift course",
+            "learning swift",
+            "swift language",
+            "swift programming language",
+            "what is swift",
+            "what is swift language",
+            "tell me about swift",
+            "swift basics",
+            "swift tutorials",
+            "swift syntax",
+            "swift learning resources",
+            "swift documentation",
+            "Swift programming basics",
+            "Swift documentation"
+         ],
+         "responses":[
+            "Swift is a powerful and intuitive programming language developed by Apple for building iOS, macOS, watchOS, and tvOS applications.",
+            "Swift combines modern language features with safety and performance, making it an ideal choice for developing software across Apple's platforms.",
+            "Swift offers features like optionals, generics, and type inference, enabling developers to write clear and concise code.",
+            "With its strong interoperability with Objective-C and support for Apple's frameworks, Swift is the preferred language for iOS and macOS development."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"php",
+         "patterns":[
+            "php programming",
+            "php",
+            "php course",
+            "learning php",
+            "php language",
+            "php programming language",
+            "what is php",
+            "what is php language",
+            "tell me about php",
+            "php basics",
+            "php tutorials",
+            "php syntax",
+            "php learning resources",
+            "php documentation",
+            "PHP programming basics",
+            "PHP documentation"
+         ],
+         "responses":[
+            "PHP is a widely-used, open-source scripting language designed for web development and server-side scripting.",
+            "PHP scripts are executed on the server, generating dynamic web pages and interacting with databases to create dynamic content.",
+            "PHP offers a wide range of features for web development, including support for various databases, powerful built-in functions, and extensive libraries.",
+            "PHP is commonly used for building content management systems (CMS) like WordPress, e-commerce platforms, and web applications."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"html",
+         "patterns":[
+            "html programming",
+            "html",
+            "html course",
+            "learning html",
+            "html language",
+            "html programming language",
+            "what is html",
+            "what is html language",
+            "tell me about html",
+            "html basics",
+            "html tutorials",
+            "html syntax",
+            "html learning resources",
+            "html documentation",
+            "HTML programming basics",
+            "HTML documentation"
+         ],
+         "responses":[
+            "HTML (Hypertext Markup Language) is the standard markup language for creating web pages and web applications.",
+            "HTML defines the structure of content on a web page using a variety of tags and attributes.",
+            "HTML documents are interpreted by web browsers to render text, images, multimedia, and interactive elements on the web.",
+            "Learning HTML is essential for web development and provides the foundation for building dynamic and interactive websites."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"css",
+         "patterns":[
+            "css programming",
+            "css",
+            "css course",
+            "learning css",
+            "css language",
+            "css programming language",
+            "what is css",
+            "what is css language",
+            "tell me about css",
+            "css basics",
+            "css tutorials",
+            "css syntax",
+            "css learning resources",
+            "css documentation",
+            "CSS programming basics",
+            "CSS documentation"
+         ],
+         "responses":[
+            "CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML.",
+            "CSS defines how elements are displayed on a web page, including layout, colors, fonts, and animations.",
+            "CSS allows developers to create visually appealing and responsive web pages by controlling the appearance and layout of HTML elements.",
+            "With CSS frameworks like Bootstrap and CSS preprocessors like Sass, developers can streamline the process of styling web applications."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"typescript",
+         "patterns":[
+            "typescript programming",
+            "typescript",
+            "typescript course",
+            "learning typescript",
+            "typescript language",
+            "typescript programming language",
+            "what is typescript",
+            "what is typescript language",
+            "tell me about typescript",
+            "typescript basics",
+            "typescript tutorials",
+            "typescript syntax",
+            "typescript learning resources",
+            "typescript documentation",
+            "TypeScript programming basics",
+            "TypeScript documentation"
+         ],
+         "responses":[
+            "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.",
+            "TypeScript adds optional static types, interfaces, and other features to JavaScript, enabling developers to write safer and more scalable code.",
+            "TypeScript's type system helps catch errors early during development and provides better tooling support for large-scale applications.",
+            "With its familiarity to JavaScript developers and growing adoption in projects and frameworks, TypeScript is becoming increasingly popular for building modern web applications."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"rust",
+         "patterns":[
+            "rust programming",
+            "rust",
+            "rust course",
+            "learning rust",
+            "rust language",
+            "rust programming language",
+            "what is rust",
+            "what is rust language",
+            "tell me about rust",
+            "rust basics",
+            "rust tutorials",
+            "rust syntax",
+            "rust learning resources",
+            "rust documentation",
+            "Rust programming basics",
+            "Rust documentation"
+         ],
+         "responses":[
+            "Rust is a systems programming language focused on safety, speed, and concurrency.",
+            "Rust's ownership model and borrowing rules ensure memory safety and prevent common pitfalls like null pointer dereferences and data races.",
+            "Rust's fearless concurrency model allows multiple threads to access data without the risk of data races, thanks to its ownership system and type system.",
+            "Rust is gaining popularity for building systems software, command-line tools, web servers, and other performance-critical applications."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"go",
+         "patterns":[
+            "go programming",
+            "go",
+            "go course",
+            "learning go",
+            "go language",
+            "go programming language",
+            "what is go",
+            "what is go language",
+            "tell me about go",
+            "go basics",
+            "go tutorials",
+            "go syntax",
+            "go learning resources",
+            "go documentation",
+            "Go programming basics",
+            "Go documentation"
+         ],
+         "responses":[
+            "Go, also known as Golang, is a statically typed, compiled programming language designed for simplicity, performance, and scalability.",
+            "Go features a clean and expressive syntax, garbage collection, built-in concurrency support with goroutines and channels, and a rich standard library.",
+            "Go is well-suited for building web servers, microservices, command-line tools, and distributed systems, thanks to its efficient runtime and powerful tooling.",
+            "With its growing ecosystem and support from major tech companies like Google, Go is increasingly used in cloud computing, DevOps, and backend development."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"kotlin",
+         "patterns":[
+            "kotlin programming",
+            "kotlin",
+            "kotlin course",
+            "learning kotlin",
+            "kotlin language",
+            "kotlin programming language",
+            "what is kotlin",
+            "what is kotlin language",
+            "tell me about kotlin",
+            "kotlin basics",
+            "kotlin tutorials",
+            "kotlin syntax",
+            "kotlin learning resources",
+            "kotlin documentation",
+            "Kotlin programming basics",
+            "Kotlin documentation"
+         ],
+         "responses":[
+            "Kotlin is a modern, statically typed programming language developed by JetBrains and officially supported for Android app development by Google.",
+            "Kotlin is designed to be concise, expressive, and interoperable with existing Java code, making it easy for Java developers to adopt.",
+            "Kotlin's features like null safety, extension functions, data classes, and coroutines improve developer productivity and code quality.",
+            "With its growing popularity and seamless integration with Android Studio and existing Android projects, Kotlin is becoming the preferred language for Android app development."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"scala",
+         "patterns":[
+            "scala programming",
+            "scala",
+            "scala course",
+            "learning scala",
+            "scala language",
+            "scala programming language",
+            "what is scala",
+            "what is scala language",
+            "tell me about scala",
+            "scala basics",
+            "scala tutorials",
+            "scala syntax",
+            "scala learning resources",
+            "scala documentation",
+            "Scala programming basics",
+            "Scala documentation"
+         ],
+         "responses":[
+            "Scala is a powerful, statically typed programming language that combines functional programming and object-oriented programming paradigms.",
+            "Scala runs on the Java Virtual Machine (JVM) and is interoperable with Java, allowing developers to leverage existing Java libraries and frameworks.",
+            "Scala features concise syntax, type inference, pattern matching, and higher-order functions, enabling expressive and concise code.",
+            "Scala is used for building scalable and distributed applications, web services, data pipelines, and complex systems in various industries."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"dart",
+         "patterns":[
+            "dart programming",
+            "dart",
+            "dart course",
+            "learning dart",
+            "dart language",
+            "dart programming language",
+            "what is dart",
+            "what is dart language",
+            "tell me about dart",
+            "dart basics",
+            "dart tutorials",
+            "dart syntax",
+            "dart learning resources",
+            "dart documentation",
+            "Dart programming basics",
+            "Dart documentation"
+         ],
+         "responses":[
+            "Dart is a client-optimized programming language developed by Google for building web, mobile, and desktop applications.",
+            "Dart is known for its fast performance, productivity features, and reactive programming model, which simplifies building user interfaces.",
+            "Dart supports both just-in-time (JIT) and ahead-of-time (AOT) compilation, enabling fast development cycles and efficient production deployments.",
+            "With the Flutter framework, developers can use Dart to build cross-platform mobile apps for iOS, Android, and the web."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"lua",
+         "patterns":[
+            "lua programming",
+            "lua",
+            "lua course",
+            "learning lua",
+            "lua language",
+            "lua programming language",
+            "what is lua",
+            "what is lua language",
+            "tell me about lua",
+            "lua basics",
+            "lua tutorials",
+            "lua syntax",
+            "lua learning resources",
+            "lua documentation",
+            "Lua programming basics",
+            "Lua documentation"
+         ],
+         "responses":[
+            "Lua is a lightweight, embeddable scripting language designed for extending applications and implementing scripting capabilities.",
+            "Lua features a simple and expressive syntax, automatic memory management, and powerful data description constructs like tables.",
+            "Lua is commonly used in game development, embedded systems, scripting, and automation due to its small footprint and ease of integration.",
+            "With its speed, flexibility, and simplicity, Lua is often chosen as the scripting language for games, game engines, and applications."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"perl",
+         "patterns":[
+            "perl programming",
+            "perl",
+            "perl course",
+            "learning perl",
+            "perl language",
+            "perl programming language",
+            "what is perl",
+            "what is perl language",
+            "tell me about perl",
+            "perl basics",
+            "perl tutorials",
+            "perl syntax",
+            "perl learning resources",
+            "perl documentation",
+            "Perl programming basics",
+            "Perl documentation"
+         ],
+         "responses":[
+            "Perl is a high-level, interpreted programming language known for its text processing capabilities and support for regular expressions.",
+            "Perl's motto, 'There's more than one way to do it' (TMTOWTDI), reflects its flexibility and expressiveness in solving problems.",
+            "Perl is commonly used for system administration, web development, network programming, and bioinformatics.",
+            "With its rich set of features and modules from CPAN (Comprehensive Perl Archive Network), Perl enables rapid development and prototyping of applications."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"r",
+         "patterns":[
+            "r programming",
+            "r",
+            "r course",
+            "learning r",
+            "r language",
+            "r programming language",
+            "what is r",
+            "what is r language",
+            "tell me about r",
+            "r basics",
+            "r tutorials",
+            "r syntax",
+            "r learning resources",
+            "r documentation",
+            "R programming basics",
+            "R documentation"
+         ],
+         "responses":[
+            "R is a programming language and environment built for statistical computing and data analysis.",
+            "R provides a wide variety of statistical and graphical techniques, making it the tool of choice for data scientists and statisticians.",
+            "R's extensive package ecosystem, including libraries like ggplot2 and dplyr, enables users to perform data manipulation, visualization, and modeling.",
+            "With its active community and comprehensive documentation, R is a powerful tool for exploring, analyzing, and visualizing data."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"sql",
+         "patterns":[
+            "sql programming",
+            "sql",
+            "sql course",
+            "learning sql",
+            "sql language",
+            "sql programming language",
+            "what is sql",
+            "what is sql language",
+            "tell me about sql",
+            "sql basics",
+            "sql tutorials",
+            "sql syntax",
+            "sql learning resources",
+            "sql documentation",
+            "SQL programming basics",
+            "SQL documentation"
+         ],
+         "responses":[
+            "SQL (Structured Query Language) is a domain-specific language used for managing relational databases and performing various operations on data.",
+            "SQL allows users to define, manipulate, and query data stored in relational database management systems (RDBMS) like MySQL, PostgreSQL, Oracle, and SQL Server.",
+            "SQL provides a standardized way to interact with databases, enabling users to perform tasks like data retrieval, data manipulation, and data definition.",
+            "Learning SQL is essential for anyone working with databases, including database administrators, data analysts, and software developers."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"haskell",
+         "patterns":[
+            "haskell programming",
+            "haskell",
+            "haskell course",
+            "learning haskell",
+            "haskell language",
+            "haskell programming language",
+            "what is haskell",
+            "what is haskell language",
+            "tell me about haskell",
+            "haskell basics",
+            "haskell tutorials",
+            "haskell syntax",
+            "haskell learning resources",
+            "haskell documentation",
+            "Haskell programming basics",
+            "Haskell documentation"
+         ],
+         "responses":[
+            "Haskell is a purely functional programming language known for its strong type system, lazy evaluation, and elegant syntax.",
+            "Haskell's functional programming paradigm emphasizes immutability, higher-order functions, and referential transparency.",
+            "Haskell's type system prevents many common programming errors at compile time, enabling safer and more reliable code.",
+            "Haskell is used in various domains, including academic research, financial modeling, compiler development, and web applications."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"cobol",
+         "patterns":[
+            "cobol programming",
+            "cobol",
+            "cobol course",
+            "learning cobol",
+            "cobol language",
+            "cobol programming language",
+            "what is cobol",
+            "what is cobol language",
+            "tell me about cobol",
+            "cobol basics",
+            "cobol tutorials",
+            "cobol syntax",
+            "cobol learning resources",
+            "cobol documentation",
+            "COBOL programming basics",
+            "COBOL documentation"
+         ],
+         "responses":[
+            "COBOL (Common Business-Oriented Language) is a high-level programming language designed for business data processing.",
+            "COBOL features English-like syntax and is optimized for handling large volumes of data and transactions in business and government applications.",
+            "COBOL is widely used in legacy systems, particularly in banking, finance, insurance, and administrative systems.",
+            "Despite its age, COBOL remains critical for many organizations due to the stability, reliability, and scalability of COBOL-based systems."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"fortran",
+         "patterns":[
+            "fortran programming",
+            "fortran",
+            "fortran course",
+            "learning fortran",
+            "fortran language",
+            "fortran programming language",
+            "what is fortran",
+            "what is fortran language",
+            "tell me about fortran",
+            "fortran basics",
+            "fortran tutorials",
+            "fortran syntax",
+            "fortran learning resources",
+            "fortran documentation",
+            "Fortran programming basics",
+            "Fortran documentation"
+         ],
+         "responses":[
+            "Fortran (Formula Translation) is a high-level programming language developed for numerical and scientific computing.",
+            "Fortran features array-based computing, extensive mathematical functions, and efficient handling of numeric data, making it popular in scientific and engineering applications.",
+            "Fortran's long history and standardization ensure compatibility and portability across different platforms and architectures.",
+            "Despite the emergence of newer languages, Fortran remains widely used in areas like computational physics, weather forecasting, and high-performance computing."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"assembly",
+         "patterns":[
+            "assembly programming",
+            "assembly",
+            "assembly course",
+            "learning assembly",
+            "assembly language",
+            "assembly programming language",
+            "what is assembly",
+            "what is assembly language",
+            "tell me about assembly",
+            "assembly basics",
+            "assembly tutorials",
+            "assembly syntax",
+            "assembly learning resources",
+            "assembly documentation",
+            "Assembly programming basics",
+            "Assembly documentation"
+         ],
+         "responses":[
+            "Assembly language is a low-level programming language that corresponds closely to machine code instructions.",
+            "Assembly language allows direct control over the hardware and resources of a computer system, making it suitable for writing device drivers and system-level software.",
+            "Assembly language programs are written using mnemonics and symbols that represent machine instructions, registers, memory addresses, and other CPU elements.",
+            "Understanding assembly language is essential for understanding computer architecture, operating systems, and optimizing performance-critical code."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"bash",
+         "patterns":[
+            "bash programming",
+            "bash",
+            "bash course",
+            "learning bash",
+            "bash scripting",
+            "bash programming language",
+            "what is bash",
+            "what is bash scripting",
+            "tell me about bash",
+            "bash basics",
+            "bash tutorials",
+            "bash syntax",
+            "bash learning resources",
+            "bash documentation",
+            "Bash programming basics",
+            "Bash documentation"
+         ],
+         "responses":[
+            "Bash (Bourne Again SHell) is a Unix shell and command language used for scripting and automating tasks in Unix-like operating systems.",
+            "Bash provides a command-line interface (CLI) for interacting with the operating system, executing commands, and writing scripts.",
+            "Bash scripts can automate repetitive tasks, manage files and directories, and perform system administration tasks.",
+            "With its extensive features, including variables, control structures, functions, and pipelines, Bash is a powerful tool for system administrators and developers."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"powershell",
+         "patterns":[
+            "powershell programming",
+            "powershell",
+            "powershell course",
+            "learning powershell",
+            "powershell scripting",
+            "powershell programming language",
+            "what is powershell",
+            "what is powershell scripting",
+            "tell me about powershell",
+            "powershell basics",
+            "powershell tutorials",
+            "powershell syntax",
+            "powershell learning resources",
+            "powershell documentation",
+            "PowerShell programming basics",
+            "PowerShell documentation"
+         ],
+         "responses":[
+            "PowerShell is a task automation and configuration management framework from Microsoft, consisting of a command-line shell and scripting language.",
+            "PowerShell provides access to system management features via cmdlets (command-lets) and scripting capabilities for automating administrative tasks.",
+            "PowerShell scripts can be used to manage Windows operating systems, automate repetitive tasks, and interact with system components like the Windows Registry and Active Directory.",
+            "With its integration with .NET Framework and support for remoting and scripting, PowerShell is a versatile tool for system administrators and developers on Windows platforms."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"clojure",
+         "patterns":[
+            "clojure programming",
+            "clojure",
+            "clojure course",
+            "learning clojure",
+            "clojure language",
+            "clojure programming language",
+            "what is clojure",
+            "what is clojure language",
+            "tell me about clojure",
+            "clojure basics",
+            "clojure tutorials",
+            "clojure syntax",
+            "clojure learning resources",
+            "clojure documentation",
+            "Clojure programming basics",
+            "Clojure documentation"
+         ],
+         "responses":[
+            "Clojure is a modern, dynamic programming language that runs on the Java Virtual Machine (JVM) and the Common Language Runtime (CLR).",
+            "Clojure is a dialect of Lisp and is designed for concurrency, immutability, and functional programming.",
+            "Clojure's simplicity, expressiveness, and emphasis on immutability make it suitable for building scalable, concurrent, and robust applications.",
+            "With its rich set of data structures, seamless Java interoperability, and support for concurrent programming, Clojure is used in web development, distributed systems, and big data processing."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"erlang",
+         "patterns":[
+            "erlang programming",
+            "erlang",
+            "erlang course",
+            "learning erlang",
+            "erlang language",
+            "erlang programming language",
+            "what is erlang",
+            "what is erlang language",
+            "tell me about erlang",
+            "erlang basics",
+            "erlang tutorials",
+            "erlang syntax",
+            "erlang learning resources",
+            "erlang documentation",
+            "Erlang programming basics",
+            "Erlang documentation"
+         ],
+         "responses":[
+            "Erlang is a functional programming language designed for building scalable, fault-tolerant, and distributed systems.",
+            "Erlang's actor-based concurrency model and lightweight processes enable massive concurrency and fault isolation in distributed systems.",
+            "Erlang is used in telecommunications, messaging systems, multiplayer online games, and other high-availability applications.",
+            "With its built-in support for distributed computing, fault tolerance, and hot code swapping, Erlang is ideal for building soft real-time systems and fault-tolerant applications."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"elixir",
+         "patterns":[
+            "elixir programming",
+            "elixir",
+            "elixir course",
+            "learning elixir",
+            "elixir language",
+            "elixir programming language",
+            "what is elixir",
+            "what is elixir language",
+            "tell me about elixir",
+            "elixir basics",
+            "elixir tutorials",
+            "elixir syntax",
+            "elixir learning resources",
+            "elixir documentation",
+            "Elixir programming basics",
+            "Elixir documentation"
+         ],
+         "responses":[
+            "Elixir is a functional, concurrent programming language built on the Erlang virtual machine (BEAM) designed for building scalable and fault-tolerant systems.",
+            "Elixir emphasizes developer productivity, maintainability, and fault tolerance through its syntax, metaprogramming capabilities, and actor-based concurrency model.",
+            "Elixir is used in web development, distributed systems, real-time communication, and IoT applications, benefiting from Erlang's mature ecosystem and fault-tolerant features.",
+            "With its emphasis on scalability, fault tolerance, and real-time communication, Elixir is an excellent choice for building soft real-time systems, chat applications, and web servers."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"perl6",
+         "patterns":[
+            "perl 6 programming",
+            "perl 6",
+            "perl 6 course",
+            "learning perl 6",
+            "perl 6 language",
+            "perl 6 programming language",
+            "what is perl 6",
+            "what is perl 6 language",
+            "tell me about perl 6",
+            "perl 6 basics",
+            "perl 6 tutorials",
+            "perl 6 syntax",
+            "perl 6 learning resources",
+            "perl 6 documentation",
+            "Perl 6 programming basics",
+            "Perl 6 documentation"
+         ],
+         "responses":[
+            "Perl 6, also known as Raku, is a multi-paradigm programming language developed as a redesign of Perl 5, emphasizing expressiveness, readability, and consistency.",
+            "Perl 6 features powerful built-in support for regular expressions, grammars, meta-programming, and concurrency, enabling developers to express complex ideas more naturally.",
+            "Perl 6's gradual typing system, lazy evaluation, and asynchronous programming model provide flexibility and performance for various applications, including web development, data analysis, and automation.",
+            "With its innovative features and community-driven development, Perl 6 offers a modern and expressive language for solving a wide range of programming tasks."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"lua",
+         "patterns":[
+            "lua programming",
+            "lua",
+            "lua course",
+            "learning lua",
+            "lua language",
+            "lua programming language",
+            "what is lua",
+            "what is lua language",
+            "tell me about lua",
+            "lua basics",
+            "lua tutorials",
+            "lua syntax",
+            "lua learning resources",
+            "lua documentation",
+            "Lua programming basics",
+            "Lua documentation"
+         ],
+         "responses":[
+            "Lua is a lightweight, embeddable scripting language designed for extending applications and implementing scripting capabilities.",
+            "Lua features a simple and expressive syntax, automatic memory management, and powerful data description constructs like tables.",
+            "Lua is commonly used in game development, embedded systems, scripting, and automation due to its small footprint and ease of integration.",
+            "With its speed, flexibility, and simplicity, Lua is often chosen as the scripting language for games, game engines, and applications."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"scratch",
+         "patterns":[
+            "scratch programming",
+            "scratch",
+            "scratch course",
+            "learning scratch",
+            "scratch language",
+            "scratch programming language",
+            "what is scratch",
+            "what is scratch language",
+            "tell me about scratch",
+            "scratch basics",
+            "scratch tutorials",
+            "scratch syntax",
+            "scratch learning resources",
+            "scratch documentation",
+            "Scratch programming basics",
+            "Scratch documentation"
+         ],
+         "responses":[
+            "Scratch is a visual programming language and online community developed by MIT Media Lab, designed for children and beginners to learn programming concepts through interactive projects.",
+            "Scratch features a drag-and-drop interface that allows users to create animations, games, stories, and simulations by snapping together colorful blocks of code.",
+            "Scratch projects can be shared and remixed within the Scratch online community, fostering collaboration, creativity, and exploration of coding concepts.",
+            "With its emphasis on creativity, problem-solving, and computational thinking, Scratch provides an engaging and accessible introduction to programming for learners of all ages."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"mathematics_importance",
+         "patterns":[
+            "Why is mathematics important in computer science?",
+            "Importance of mathematics in CS",
+            "Role of math in computer science",
+            "How does mathematics contribute to computer science?"
+         ],
+         "responses":[
+            "Mathematics serves as the cornerstone of computer science, providing the fundamental framework for understanding and solving complex problems.",
+            "In computer science, mathematics acts as the universal language of computation, facilitating precise modeling, analysis, and optimization of algorithms and systems.",
+            "The integration of mathematics and computer science enables the development of efficient algorithms, predictive models, and advanced computational methods across diverse domains.",
+            "Mathematics plays a pivotal role in shaping various branches of computer science, including artificial intelligence, machine learning, cryptography, computer graphics, and many more."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"math_dependent_tracks",
+         "patterns":[
+            "Which computer science tracks heavily rely on mathematics?",
+            "CS tracks that require strong math background",
+            "Tracks in CS that depend on math",
+            "What computer science fields use a lot of math?"
+         ],
+         "responses":[
+            "Several computer science tracks heavily rely on mathematics, demanding a robust understanding of mathematical principles and techniques. Here are some of these tracks:",
+            "1. Algorithms and Data Structures: Mathematics is essential for designing, analyzing, and optimizing algorithms and data structures.",
+            "2. Artificial Intelligence and Machine Learning: Mathematical concepts underpin the statistical methods, optimization algorithms, and modeling techniques used in AI and ML.",
+            "3. Computational Theory: Mathematics forms the basis for understanding computational complexity, automata theory, and formal languages.",
+            "4. Cryptography and Cybersecurity: Mathematical concepts such as number theory and discrete mathematics are crucial for designing secure cryptographic systems.",
+            "5. Computer Graphics and Visualization: Linear algebra, calculus, and geometry are fundamental for rendering images, simulating 3D environments, and visualizing complex data.",
+            "6. Data Science and Analytics: Probability theory, statistics, and linear algebra are central to analyzing large datasets, deriving insights, and making data-driven decisions.",
+            "7. Quantum Computing: Quantum mechanics and linear algebra are core to understanding quantum algorithms and principles of quantum computing.",
+            "8. Robotics and Control Systems: Mathematics enables the modeling of robotic systems, motion planning, and control algorithms for autonomous operations.",
+            "9. Numerical Analysis and Scientific Computing: Mathematical techniques are used to solve complex equations, simulate physical systems, and analyze scientific data."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"algorithms_requirements",
+         "patterns":[
+            "What are the requirements for learning algorithms?",
+            "Prerequisites for studying algorithms",
+            "Requirements for algorithms"
+         ],
+         "responses":[
+            "Gaining proficiency in algorithms requires a solid foundation in programming concepts, mathematics including algebra and discrete mathematics, and problem-solving skills."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"data_structures_requirements",
+         "patterns":[
+            "What are the prerequisites for studying data structures?",
+            "Requirements for learning data structures",
+            "Data structures prerequisites"
+         ],
+         "responses":[
+            "Before delving into data structures, it's essential to have a solid grasp of programming fundamentals, including control structures, arrays, and pointers. Understanding basic algorithms and their analysis is also beneficial."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"programming_languages_requirements",
+         "patterns":[
+            "What are the prerequisites for learning programming languages?",
+            "Requirements for studying programming languages",
+            "Programming languages prerequisites"
+         ],
+         "responses":[
+            "To embark on learning programming languages, a foundational understanding of computer science fundamentals is necessary, including algorithms and data structures. Proficiency in problem-solving and familiarity with at least one programming language is recommended."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"computer_architecture_requirements",
+         "patterns":[
+            "What are the requirements for studying computer architecture?",
+            "Prerequisites for learning computer architecture",
+            "Computer architecture prerequisites"
+         ],
+         "responses":[
+            "Before delving into computer architecture, it's crucial to have a solid understanding of digital logic, binary arithmetic, and basic computer organization concepts. Knowledge of assembly language programming and computer system components is also beneficial."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"operating_systems_requirements",
+         "patterns":[
+            "What are the prerequisites for learning operating systems?",
+            "Requirements for studying operating systems",
+            "Operating systems prerequisites"
+         ],
+         "responses":[
+            "To study operating systems, a strong foundation in computer architecture, programming, and data structures is essential. Familiarity with system-level programming languages such as C and understanding of memory management and process synchronization concepts are recommended."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"software_engineering_requirements",
+         "patterns":[
+            "What are the requirements for studying software engineering?",
+            "Prerequisites for learning software engineering",
+            "Software engineering prerequisites"
+         ],
+         "responses":[
+            "Before diving into software engineering, a strong grasp of programming fundamentals, data structures, and algorithms is necessary. Understanding of software development methodologies, version control systems, and software design principles is also beneficial."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"artificial_intelligence_requirements",
+         "patterns":[
+            "What are the prerequisites for learning artificial intelligence?",
+            "Requirements for studying artificial intelligence",
+            "Artificial intelligence prerequisites"
+         ],
+         "responses":[
+            "To study artificial intelligence, a solid foundation in mathematics, including calculus, linear algebra, and probability theory, is crucial. Proficiency in programming languages such as Python and familiarity with algorithms and data structures are also essential."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"computational_theory_requirements",
+         "patterns":[
+            "What are the requirements for studying computational theory?",
+            "Prerequisites for learning computational theory",
+            "Computational theory prerequisites"
+         ],
+         "responses":[
+            "Before delving into computational theory, a strong background in discrete mathematics, logic, and formal languages is necessary. Familiarity with algorithms, automata theory, and complexity theory concepts is also recommended."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"computer_applications_requirements",
+         "patterns":[
+            "What are the prerequisites for learning computer applications?",
+            "Requirements for studying computer applications",
+            "Computer applications prerequisites"
+         ],
+         "responses":[
+            "To study computer applications, a basic understanding of computer fundamentals and proficiency in using operating systems and common software applications are necessary. Familiarity with productivity tools and digital communication platforms is also beneficial."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"database_systems_requirements",
+         "patterns":[
+            "What are the requirements for studying database systems?",
+            "Prerequisites for learning database systems",
+            "Database systems prerequisites"
+         ],
+         "responses":[
+            "Before delving into database systems, a strong foundation in relational algebra, set theory, and database design concepts is necessary. Proficiency in SQL, familiarity with data modeling, and understanding of transaction management are also essential."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"networking_requirements",
+         "patterns":[
+            "What are the prerequisites for learning networking?",
+            "Requirements for studying networking",
+            "Networking prerequisites"
+         ],
+         "responses":[
+            "To study networking, a basic understanding of computer architecture, operating systems, and programming fundamentals is necessary. Familiarity with the TCP/IP protocol suite, network devices, and network security concepts is also recommended."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"web_development_requirements",
+         "patterns":[
+            "What are the prerequisites for learning web development?",
+            "Requirements for studying web development",
+            "Web development prerequisites"
+         ],
+         "responses":[
+            "Before diving into web development, a solid understanding of HTML, CSS, and JavaScript is necessary. Proficiency in a server-side programming language such as Python, PHP, or Node.js, and familiarity with databases and version control systems are also beneficial."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"cybersecurity_requirements",
+         "patterns":[
+            "What are the prerequisites for learning cybersecurity?",
+            "Requirements for studying cybersecurity",
+            "Cybersecurity prerequisites"
+         ],
+         "responses":[
+            "To study cybersecurity, a strong foundation in computer networks, operating systems, and programming languages is necessary. Understanding of encryption algorithms, network security protocols, and system vulnerabilities is also essential."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"machine_learning_requirements",
+         "patterns":[
+            "What are the prerequisites for studying machine learning?",
+            "Requirements for learning machine learning",
+            "Machine learning prerequisites"
+         ],
+         "responses":[
+            "To study machine learning, a solid background in mathematics, including linear algebra, calculus, and probability theory, is necessary. Proficiency in programming languages such as Python, understanding of algorithms, and familiarity with data analysis techniques are also essential."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"natural_language_processing_requirements",
+         "patterns":[
+            "What are the prerequisites for learning natural language processing?",
+            "Requirements for studying natural language processing",
+            "Natural language processing prerequisites"
+         ],
+         "responses":[
+            "Before delving into natural language processing, a strong foundation in machine learning, statistics, and linguistics is necessary. Proficiency in programming languages such as Python and familiarity with text processing techniques and algorithms are also essential."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"computer_graphics_requirements",
+         "patterns":[
+            "What are the prerequisites for studying computer graphics?",
+            "Prerequisites for learning computer graphics",
+            "Computer graphics prerequisites"
+         ],
+         "responses":[
+            "To study computer graphics, a solid understanding of linear algebra, calculus, and geometry is necessary. Proficiency in programming languages such as C++ or OpenGL, familiarity with graphics algorithms, and knowledge of rendering techniques are also essential."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"parallel_computing_requirements",
+         "patterns":[
+            "What are the prerequisites for learning parallel computing?",
+            "Requirements for studying parallel computing",
+            "Parallel computing prerequisites"
+         ],
+         "responses":[
+            "Before diving into parallel computing, a strong background in computer architecture, algorithms, and data structures is necessary. Familiarity with parallel programming models, concurrency control mechanisms, and distributed systems concepts is also recommended."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"distributed_systems_requirements",
+         "patterns":[
+            "What are the requirements for studying distributed systems?",
+            "Prerequisites for learning distributed systems",
+            "Distributed systems prerequisites"
+         ],
+         "responses":[
+            "To study distributed systems, a solid foundation in computer networks, operating systems, and algorithms is necessary. Understanding of distributed computing principles, consensus algorithms, and fault tolerance mechanisms is also essential."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"cloud_computing_requirements",
+         "patterns":[
+            "What are the prerequisites for learning cloud computing?",
+            "Requirements for studying cloud computing",
+            "Cloud computing prerequisites"
+         ],
+         "responses":[
+            "Before delving into cloud computing, a strong understanding of computer networks, virtualization, and distributed systems is necessary. Familiarity with cloud service models, deployment models, and security principles is also recommended."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"human_computer_interaction_requirements",
+         "patterns":[
+            "What are the requirements for studying human-computer interaction?",
+            "Prerequisites for learning human-computer interaction",
+            "Human-computer interaction prerequisites"
+         ],
+         "responses":[
+            "To study human-computer interaction, a basic understanding of psychology, user interface design principles, and cognitive science is necessary. Proficiency in programming languages for developing interactive systems and familiarity with usability testing methods are also beneficial."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"mobile_development_requirements",
+         "patterns":[
+            "What are the prerequisites for learning mobile development?",
+            "Requirements for studying mobile development",
+            "Mobile development prerequisites"
+         ],
+         "responses":[
+            "Before diving into mobile development, a strong foundation in programming languages such as Java, Kotlin, or Swift is necessary. Understanding of mobile application architectures, user interface design, and familiarity with mobile development frameworks and tools are also essential."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"game_development_requirements",
+         "patterns":[
+            "What are the requirements for studying game development?",
+            "Prerequisites for learning game development",
+            "Game development prerequisites"
+         ],
+         "responses":[
+            "To study game development, proficiency in programming languages such as C++, C#, or JavaScript is necessary. Understanding of game design principles, mathematics for game development, and familiarity with game engines and development tools are also essential."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"robotics_requirements",
+         "patterns":[
+            "What are the prerequisites for learning robotics?",
+            "Requirements for studying robotics",
+            "Robotics prerequisites"
+         ],
+         "responses":[
+            "Before delving into robotics, a solid understanding of mathematics, including calculus, linear algebra, and trigonometry, is necessary. Proficiency in programming languages such as C++ or Python, understanding of mechanics, electronics, and control systems are also essential."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"embedded_systems_requirements",
+         "patterns":[
+            "What are the prerequisites for learning embedded systems?",
+            "Requirements for studying embedded systems",
+            "Embedded systems prerequisites"
+         ],
+         "responses":[
+            "To study embedded systems, a strong foundation in computer architecture, digital electronics, and programming languages such as C or assembly language is necessary. Understanding of real-time operating systems, microcontroller programming, and hardware-software interfacing is also essential."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"data_science_requirements",
+         "patterns":[
+            "What are the prerequisites for learning data science?",
+            "Requirements for studying data science",
+            "Data science prerequisites"
+         ],
+         "responses":[
+            "To study data science, a solid foundation in mathematics, statistics, and programming is necessary. Proficiency in programming languages such as Python or R, understanding of data analysis techniques, and familiarity with machine learning algorithms are also essential."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"Algorithms",
+         "patterns":[
+            "algorithm roadmap",
+            "learn algorithms",
+            "algorithm steps",
+            "algorithm learning path",
+            "algorithm progression"
+         ],
+         "responses":"1. 'Learn basic data structures like arrays, linked lists, and trees.' 2. 'Understand algorithm design paradigms such as divide and conquer, dynamic programming, and greedy algorithms.' 3. 'Study common algorithmic problems and their solutions.' 4. 'Practice solving algorithmic challenges on platforms like LeetCode, HackerRank, and Codeforces.' 5. 'Explore advanced topics like graph algorithms, string algorithms, and computational geometry.'",
+         "context_set":""
+      },
+      {
+         "tag":"Data Structures",
+         "patterns":[
+            "data structures roadmap",
+            "learn data structures",
+            "data structures steps",
+            "data structures learning path",
+            "data structures progression"
+         ],
+         "responses":"1. 'Understand fundamental data structures like arrays, linked lists, and stacks.' 2. 'Learn about advanced data structures such as heaps, hash tables, and tries.' 3. 'Study algorithms associated with data structures like sorting, searching, and graph traversal.' 4. 'Practice implementing data structures and algorithms in various programming languages.' 5. 'Explore applications of data structures in real-world problems.'",
+         "context_set":""
+      },
+      {
+         "tag":"Programming Languages",
+         "patterns":[
+            "programming languages roadmap",
+            "learn programming languages",
+            "programming languages steps",
+            "programming languages learning path",
+            "programming languages progression"
+         ],
+         "responses":"1. 'Understand the syntax and semantics of programming languages like Python, Java, and C++.' 2. 'Learn about language features, data types, control structures, and functions.' 3. 'Explore advanced topics like object-oriented programming, functional programming, and concurrency.' 4. 'Practice coding in different languages by solving coding challenges and building projects.' 5. 'Stay updated with the latest trends and features in programming languages.'",
+         "context_set":""
+      },
+      {
+         "tag":"Computer Architecture",
+         "patterns":[
+            "computer architecture roadmap",
+            "learn computer architecture",
+            "computer architecture steps",
+            "computer architecture learning path",
+            "computer architecture progression"
+         ],
+         "responses":"1. 'Study the basics of computer architecture including CPU, memory, storage, and I/O devices.' 2. 'Understand instruction set architectures (ISAs) and CPU design principles.' 3. 'Learn about memory hierarchy, cache management, and virtual memory systems.' 4. 'Explore parallelism and pipelining techniques in modern processors.' 5. 'Study emerging trends in computer architecture like quantum computing and neuromorphic computing.'",
+         "context_set":""
+      },
+      {
+         "tag":"Operating Systems",
+         "patterns":[
+            "operating systems roadmap",
+            "learn operating systems",
+            "operating systems steps",
+            "operating systems learning path",
+            "operating systems progression"
+         ],
+         "responses":"1. 'Understand the fundamental concepts of operating systems including processes, threads, and memory management.' 2. 'Learn about process synchronization and concurrency control mechanisms.' 3. 'Study operating system architectures and kernel design principles.' 4. 'Explore topics like device drivers, virtualization, and system security.' 5. 'Practice by working with different operating systems and analyzing their internals.'",
+         "context_set":""
+      },
+      {
+         "tag":"Software Engineering",
+         "patterns":[
+            "software engineering roadmap",
+            "learn software engineering",
+            "software engineering steps",
+            "software engineering learning path",
+            "software engineering progression"
+         ],
+         "responses":"1. 'Learn software development methodologies such as waterfall, agile, and scrum.' 2. 'Understand the software development life cycle (SDLC) and project management techniques.' 3. 'Study software requirements engineering, design patterns, and software architecture.' 4. 'Learn about software testing, quality assurance, and debugging techniques.' 5. 'Explore topics like software maintenance, documentation, and version control systems.'",
+         "context_set":""
+      },
+      {
+         "tag":"Artificial Intelligence",
+         "patterns":[
+            "artificial intelligence roadmap",
+            "learn artificial intelligence",
+            "artificial intelligence steps",
+            "artificial intelligence learning path",
+            "artificial intelligence progression"
+         ],
+         "responses":"1. 'Understand the fundamentals of artificial intelligence and machine learning.' 2. 'Learn about machine learning algorithms including supervised, unsupervised, and reinforcement learning.' 3. 'Study deep learning techniques such as neural networks, convolutional neural networks, and recurrent neural networks.' 4. 'Explore natural language processing (NLP), computer vision, and robotics.' 5. 'Apply AI techniques to real-world problems and projects.'",
+         "context_set":""
+      },
+      {
+         "tag":"Computational Theory",
+         "patterns":[
+            "computational theory roadmap",
+            "learn computational theory",
+            "computational theory steps",
+            "computational theory learning path",
+            "computational theory progression"
+         ],
+         "responses":"1. 'Study theoretical models of computation including finite automata, Turing machines, and formal languages.' 2. 'Explore complexity theory and computational complexity classes like P, NP, and NP-complete.' 3. 'Learn about computability and decidability, including the halting problem.' 4. 'Study advanced topics like approximation algorithms, randomized algorithms, and quantum computing.' 5. 'Apply theoretical concepts to solve practical problems in computer science.'",
+         "context_set":""
+      },
+      {
+         "tag":"Computer Applications",
+         "patterns":[
+            "computer applications roadmap",
+            "learn computer applications",
+            "computer applications steps",
+            "computer applications learning path",
+            "computer applications progression"
+         ],
+         "responses":"1. 'Understand the design and development of computer applications for various domains.' 2. 'Learn about requirements gathering, system analysis, and software design methodologies.' 3. 'Study application frameworks and libraries for rapid development.' 4. 'Explore user interface (UI) design principles and user experience (UX) research.' 5. 'Practice building applications in specific domains like finance, healthcare, and education.'",
+         "context_set":""
+      },
+      {
+         "tag":"Database Systems",
+         "patterns":[
+            "database systems roadmap",
+            "learn database systems",
+            "database systems steps",
+            "database systems learning path",
+            "database systems progression"
+         ],
+         "responses":"1. 'Understand relational database concepts including tables, rows, columns, and keys.' 2. 'Learn SQL (Structured Query Language) for database querying and manipulation.' 3. 'Study database design principles including normalization, indexing, and transaction management.' 4. 'Explore NoSQL databases and their use cases in modern applications.' 5. 'Learn about database administration, performance tuning, and data security.'",
+         "context_set":""
+      },
+      {
+         "tag":"Networking",
+         "patterns":[
+            "networking roadmap",
+            "learn networking",
+            "networking steps",
+            "networking learning path",
+            "networking progression"
+         ],
+         "responses":"1. 'Understand the fundamentals of computer networking including the OSI model and TCP/IP protocols.' 2. 'Learn about network devices like routers, switches, and firewalls.' 3. 'Study network protocols such as HTTP, FTP, SMTP, and DNS.' 4. 'Explore topics like network security, wireless networking, and cloud networking.' 5. 'Practice configuring and troubleshooting network setups in lab environments.'",
+         "context_set":""
+      },
+      {
+         "tag":"Web Development",
+         "patterns":[
+            "web development roadmap",
+            "learn web development",
+            "web development steps",
+            "web development learning path",
+            "web development progression"
+         ],
+         "responses":"1. 'Understand the basics of web technologies including HTML, CSS, and JavaScript.' 2. 'Learn about front-end frameworks like React, Angular, and Vue.js.' 3. 'Study back-end development using Node.js, Django, Flask, or other frameworks.' 4. 'Explore database systems and ORMs for data management in web applications.' 5. 'Practice building full-stack web applications and deploying them to web servers.'",
+         "context_set":""
+      },
+      {
+         "tag":"Cybersecurity",
+         "patterns":[
+            "cybersecurity roadmap",
+            "learn cybersecurity",
+            "cybersecurity steps",
+            "cybersecurity learning path",
+            "cybersecurity progression"
+         ],
+         "responses":"1. 'Understand the fundamentals of cybersecurity including threats, vulnerabilities, and attacks.' 2. 'Learn about encryption techniques, cryptographic algorithms, and secure communication protocols.' 3. 'Study network security, access control mechanisms, and security policies.' 4. 'Explore topics like penetration testing, incident response, and digital forensics.' 5. 'Stay updated with emerging threats and security trends in the cybersecurity field.'",
+         "context_set":""
+      },
+      {
+         "tag":"Machine Learning",
+         "patterns":[
+            "machine learning roadmap",
+            "learn machine learning",
+            "machine learning steps",
+            "machine learning learning path",
+            "machine learning progression"
+         ],
+         "responses":"1. 'Understand the mathematical foundations of machine learning including linear algebra, calculus, and probability theory.' 2. 'Learn about supervised learning, unsupervised learning, and reinforcement learning algorithms.' 3. 'Study model evaluation techniques, cross-validation, and hyperparameter tuning.' 4. 'Explore deep learning architectures like convolutional neural networks (CNNs) and recurrent neural networks (RNNs).' 5. 'Apply machine learning algorithms to real-world datasets and projects.'",
+         "context_set":""
+      },
+      {
+         "tag":"Natural Language Processing",
+         "patterns":[
+            "natural language processing roadmap",
+            "learn natural language processing",
+            "natural language processing steps",
+            "natural language processing learning path",
+            "natural language processing progression"
+         ],
+         "responses":"1. 'Understand the fundamentals of linguistics, syntax, and semantics in natural language.' 2. 'Learn about text preprocessing techniques like tokenization, stemming, and lemmatization.' 3. 'Study statistical and machine learning models for language understanding and generation.' 4. 'Explore applications of NLP such as sentiment analysis, named entity recognition, and machine translation.' 5. 'Practice building NLP models using libraries like NLTK, spaCy, and TensorFlow.'",
+         "context_set":""
+      },
+      {
+         "tag":"Computer Graphics",
+         "patterns":[
+            "computer graphics roadmap",
+            "learn computer graphics",
+            "computer graphics steps",
+            "computer graphics learning path",
+            "computer graphics progression"
+         ],
+         "responses":"1. 'Understand the principles of 2D and 3D graphics including rendering techniques and coordinate systems.' 2. 'Learn about graphics APIs like OpenGL and DirectX for hardware-accelerated rendering.' 3. 'Study geometric transformations, rasterization, and ray tracing algorithms.' 4. 'Explore shading models, texture mapping, and lighting techniques.' 5. 'Practice implementing computer graphics algorithms and building interactive applications.'",
+         "context_set":""
+      },
+      {
+         "tag":"Parallel Computing",
+         "patterns":[
+            "parallel computing roadmap",
+            "learn parallel computing",
+            "parallel computing steps",
+            "parallel computing learning path",
+            "parallel computing progression"
+         ],
+         "responses":"1. 'Understand the concepts of parallelism and concurrency in computing.' 2. 'Learn about parallel architectures including multi-core CPUs, GPUs, and distributed systems.' 3. 'Study parallel programming models and frameworks such as OpenMP, MPI, and CUDA.' 4. 'Explore parallel algorithms for tasks like sorting, searching, and matrix multiplication.' 5. 'Practice optimizing and parallelizing algorithms for performance and scalability.'",
+         "context_set":""
+      },
+      {
+         "tag":"Distributed Systems",
+         "patterns":[
+            "distributed systems roadmap",
+            "learn distributed systems",
+            "distributed systems steps",
+            "distributed systems learning path",
+            "distributed systems progression"
+         ],
+         "responses":"1. 'Understand the principles of distributed computing and networked systems.' 2. 'Learn about distributed architectures including client-server, peer-to-peer, and cloud computing.' 3. 'Study distributed algorithms for consensus, replication, and fault tolerance.' 4. 'Explore distributed storage systems, distributed databases, and big data processing frameworks.' 5. 'Practice building scalable and reliable distributed systems for various applications.'",
+         "context_set":""
+      },
+      {
+         "tag":"Cloud Computing",
+         "patterns":[
+            "cloud computing roadmap",
+            "learn cloud computing",
+            "cloud computing steps",
+            "cloud computing learning path",
+            "cloud computing progression"
+         ],
+         "responses":"1. 'Understand the fundamentals of cloud computing including service models and deployment models.' 2. 'Learn about cloud platforms like Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP).' 3. 'Study cloud infrastructure components such as virtual machines, containers, and object storage.' 4. 'Explore cloud services for computing, networking, storage, databases, and machine learning.' 5. 'Practice deploying and managing applications on cloud platforms and designing scalable architectures.'",
+         "context_set":""
+      },
+      {
+         "tag":"Human-Computer Interaction",
+         "patterns":[
+            "human-computer interaction roadmap",
+            "learn human-computer interaction",
+            "human-computer interaction steps",
+            "human-computer interaction learning path",
+            "human-computer interaction progression"
+         ],
+         "responses":"1. 'Understand the principles of human-centered design and usability engineering.' 2. 'Learn about user interface (UI) design principles, interaction design, and information architecture.' 3. 'Study usability testing techniques, user research methods, and persona development.' 4. 'Explore accessibility considerations, user experience (UX) design, and responsive web design.' 5. 'Practice prototyping and designing user interfaces for different platforms and devices.'",
+         "context_set":""
+      },
+      {
+         "tag":"math_department",
+         "patterns":[
+            "Mathematics department",
+            "Math department",
+            "Department of Mathematics",
+            "Mathematics faculty",
+            "Math courses",
+            "Mathematics program",
+            "Mathematics studies",
+            "Mathematics degree",
+            "Pure mathematics",
+            "Applied mathematics",
+            "Mathematics research",
+            "Mathematics curriculum",
+            "Mathematics professors"
+         ],
+         "responses":[
+            "The Mathematics Department at our university is renowned for its rigorous academic programs and groundbreaking research.",
+            "In the Mathematics Department, students delve into the beauty of pure mathematics and its practical applications in various fields.",
+            "Our Mathematics Department offers a diverse range of courses tailored to meet the needs of both aspiring mathematicians and students from other disciplines.",
+            "Students in the Mathematics Department have the opportunity to collaborate with world-class faculty on innovative research projects.",
+            "At the Mathematics Department, we emphasize problem-solving skills, analytical thinking, and creativity to tackle complex mathematical challenges.",
+            "The Mathematics Department encourages students to explore advanced topics such as algebraic geometry, number theory, and mathematical physics."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"comp_sci_department",
+         "patterns":[
+            "Computer science department",
+            "Computer science faculty",
+            "Department of Computer Science",
+            "Comp Sci department",
+            "Computer science courses",
+            "Computer science program",
+            "Computer science studies",
+            "Computer science degree",
+            "Programming",
+            "Algorithms",
+            "Data structures",
+            "Computer networks",
+            "Software engineering",
+            "Artificial intelligence",
+            "Cybersecurity",
+            "Computer science research"
+         ],
+         "responses":[
+            "The Computer Science Department is at the forefront of technology and innovation, offering cutting-edge programs and research opportunities.",
+            "In the Computer Science Department, students explore the foundations of computing and learn to develop software solutions for real-world problems.",
+            "Our Computer Science Department provides hands-on experience in programming, algorithm design, and system architecture.",
+            "Students in the Computer Science Department engage in collaborative projects and gain valuable insights from industry professionals.",
+            "The Computer Science Department fosters creativity and critical thinking, empowering students to become leaders in the field of technology.",
+            "From artificial intelligence to cybersecurity, the Computer Science Department offers specialized tracks to suit diverse career aspirations."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"gpa_calculation",
+         "patterns":[
+            "GPA calculation",
+            "How to calculate GPA",
+            "Grade Point Average",
+            "Cumulative GPA",
+            "GPA scale",
+            "Calculate GPA",
+            "GPA formula",
+            "Grading system",
+            "Grade calculation"
+         ],
+         "responses":[
+            "GPA calculation is based on the sum of grade points earned in courses divided by the total credit hours.",
+            "To calculate GPA, multiply the grade points earned in each course by the credit hours, sum them up, and divide by the total credit hours.",
+            "The GPA scale typically ranges from 0.0 to 4.0, with 4.0 being the highest.",
+            "Grade points are assigned based on the letter grade earned in each course according to the institution's grading system.",
+            "Your cumulative GPA reflects your overall academic performance throughout your studies."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"credit_hours_system",
+         "patterns":[
+            "Credit hours system",
+            "Course credits",
+            "Credit hours",
+            "Academic credits",
+            "Credit system",
+            "Course load",
+            "Credit allocation"
+         ],
+         "responses":[
+            "The credit hours system assigns a numerical value to each course based on its instructional hours and academic workload.",
+            "Credit hours represent the amount of time a student spends in class and on coursework each week.",
+            "Typically, one credit hour corresponds to one hour of classroom instruction per week over a semester.",
+            "The credit hours system allows students to track their progress toward degree completion and helps determine academic standing."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"academic_guide",
+         "patterns":[
+            "Academic guide",
+            "Student handbook",
+            "Academic policies",
+            "Degree requirements",
+            "Graduation guide",
+            "Course catalog",
+            "Academic regulations",
+            "University guidelines"
+         ],
+         "responses":[
+            "The academic guide provides comprehensive information on degree requirements, academic policies, and university guidelines.",
+            "It outlines the courses needed to fulfill degree requirements, along with prerequisites and corequisites.",
+            "The academic guide also details academic regulations, such as grading policies, course registration procedures, and academic probation guidelines.",
+            "Students should consult the academic guide regularly to stay informed about program expectations and university policies."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"career_opportunities_mathematics",
+         "patterns":[
+            "Mathematics career opportunities",
+            "Jobs for math graduates",
+            "Employment prospects in mathematics",
+            "Mathematics-related careers",
+            "Mathematics job market",
+            "Mathematics employment",
+            "Career paths for math majors"
+         ],
+         "responses":[
+            "Mathematics graduates have diverse career opportunities, including roles in finance, data analysis, education, research, and technology.",
+            "Career paths for math majors include actuarial science, statistical analysis, operations research, cryptography, and mathematical modeling.",
+            "Employers value the analytical and problem-solving skills gained through mathematics education.",
+            "Mathematics graduates may work in industries such as finance, insurance, consulting, government, education, and research.",
+            "Job prospects for mathematics graduates are strong, with opportunities for advancement and specialization in various fields.",
+            "Mathematics majors can pursue advanced degrees or certifications to further specialize in areas such as applied mathematics, pure mathematics, or mathematical finance.",
+            "Continuous learning and professional development are essential for staying competitive in the mathematics job market.",
+            "Networking with professionals in mathematics-related fields and participating in internships can enhance career prospects.",
+            "Employment trends in mathematics may influence career decisions and opportunities for growth and advancement.",
+            "Staying informed about industry developments, technological advancements, and emerging trends can help mathematics graduates navigate their career paths successfully."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"career_opportunities_computer_science",
+         "patterns":[
+            "Computer science career opportunities",
+            "Jobs for computer science graduates",
+            "Employment prospects in computer science",
+            "Computer science-related careers",
+            "Computer science job market",
+            "Computer science employment",
+            "Career paths for computer science majors"
+         ],
+         "responses":[
+            "Computer science graduates have diverse career opportunities in software development, cybersecurity, data science, artificial intelligence, and more.",
+            "Career paths for computer science majors include software engineer, web developer, data analyst, cybersecurity analyst, and machine learning engineer.",
+            "Employers value the technical skills and problem-solving abilities gained through computer science education.",
+            "Computer science graduates may work in industries such as technology, finance, healthcare, government, and education.",
+            "Job prospects for computer science graduates are robust, with high demand for skilled professionals in the field.",
+            "Computer science majors can pursue advanced degrees or certifications to specialize in areas such as cloud computing, mobile development, or computer vision.",
+            "Continuous learning and keeping up with emerging technologies are essential for success in the dynamic field of computer science.",
+            "Networking with professionals in the technology industry and gaining practical experience through internships can enhance career prospects.",
+            "Employment trends in computer science may shape career opportunities and paths for graduates.",
+            "Staying abreast of industry trends and developments can help computer science graduates navigate their careers effectively."
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"Stop Words",
+         "patterns":[
+            "what are stop words?",
+            "examples of stop words",
+            "why remove stop words?",
+            "stop words importance",
+            "stop words list",
+            "how to remove stop words?",
+            "stop words in NLP"
+         ],
+         "responses":[
+            "'Stop words are common words that are often filtered out before or after processing natural language data.'",
+            "'Common examples of stop words include 'the,' 'and,' 'is,' 'in,' 'at,' 'it,' 'for,' etc.'",
+            "'Removing stop words can help reduce noise in text data and improve the efficiency of natural language processing tasks.'",
+            "'Stop words are often considered irrelevant for text analysis or search queries.'",
+            "'There are predefined lists of stop words for different languages available in natural language processing libraries.'",
+            "'To remove stop words, you can use techniques like tokenization and filtering based on predefined lists.'",
+            "'Stop words play a crucial role in NLP tasks such as document classification and information retrieval.'"
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"Confirmation",
+         "patterns":[
+            "okay",
+            "alright",
+            "got it",
+            "understood",
+            "makes sense",
+            "confirm",
+            "affirmative"
+         ],
+         "responses":[
+            "'Alright!'",
+            "'Okay!'",
+            "'Got it!'",
+            "'Understood!'",
+            "'That makes sense!'",
+            "'Confirmative.'",
+            "'Affirmative.'"
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"Acknowledgement",
+         "patterns":[
+            "thank you",
+            "thanks",
+            "appreciate it",
+            "grateful",
+            "thankful",
+            "thankful for your help",
+            "thanks a lot"
+         ],
+         "responses":[
+            "Thank you!",
+            "Thanks!",
+            "'Appreciate it!'",
+            "'Grateful!'",
+            "'Thankful!'",
+            "'Thankful for your help!'",
+            "'Thanks a lot!'"
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"Error Handling",
+         "patterns":[
+            "error occurred",
+            "problem with the system",
+            "unable to process",
+            "something went wrong",
+            "error message",
+            "system error",
+            "error handling"
+         ],
+         "responses":[
+            "'Apologies for the inconvenience. Please try again later.'",
+            "'We're sorry, but there seems to be an issue with the system. Our team is working on it.'",
+            "'We're currently experiencing difficulties processing your request. Please bear with us.'",
+            "'Oops! It seems something went wrong. We'll investigate and get back to you.'",
+            "'Here's the error message: [Error message]. Please contact support for further assistance.'",
+            "'We've encountered a system error. Our technical team has been notified.'",
+            "'Error handling is an essential aspect of software development to ensure robustness.'"
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"Inquiry",
+         "patterns":[
+            "how does it work?",
+            "explain it to me",
+            "can you explain?",
+            "what is this?",
+            "more details please",
+            "clarify",
+            "I don't understand"
+         ],
+         "responses":[
+            "'Let me explain how it works.'",
+            "'Sure, I can provide more details.'",
+            "'Here's how it works.'",
+            "'I'd be happy to clarify.'",
+            "'Let me break it down for you.'",
+            "'Sure, what do you need clarification on?'",
+            "'I'll explain it in more detail.'"
+         ],
+         "context_set":""
+      },
+      {
+         "tag":"Gratitude",
+         "patterns":[
+            "great job",
+            "thank you for your help",
+            "thanks for the assistance",
+            "much appreciated",
+            "you're awesome",
+            "thanks a bunch",
+            "really helpful"
+         ],
+         "responses":[
+            "'Great job!'",
+            "'Thank you for your help!'",
+            "'Thanks for the assistance!'",
+            "'Much appreciated!'",
+            "'You're awesome!'",
+            "'Thanks a bunch!'",
+            "'Really helpful!'"
+         ],
+         "context_set":""
+      }
+   ]
+}
